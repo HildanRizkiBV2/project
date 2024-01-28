@@ -1,4 +1,4 @@
-body {
+body , * {
 margin: 0;
 padding: 0;
 }
@@ -37,37 +37,18 @@ header {
   font-weight:700;
 }
 .homepages {
-  background-color:#f6f8fd;
+  background: rgb(3,0,255);
+  background: linear-gradient(90deg, rgba(3,0,255,1) 0%, rgba(3,130,248,0.948212591084567) 61%, rgba(0,161,228,1) 100%);
 }
-.homepages .biodata {
-  background-color:#f6f8fd;
-  border:4px;
-  display:flex;
-  justify-content:center;
-  
+.homepages .row:nth-child(1) {
+  padding-top:100px;
 }
-.homepages .bg-data {
-  background-color:white;
-  width:400px;
-  height:500px;
-  margin-top:200px;
-  margin-bottom:100px;
-  padding:20px;
+.homepages .content {
+  background-color:#0300ff;
 }
-.homepages .bg-data p {
-  font-size:800;
+.homepages .content .row:nth-child(1) {
+  padding-top:150px;
 }
-.homepages .project {
-  justify-content:center;
-  display:flex;
-  margin-bottom:100px;
-  padding:10px;
-}
-.homepages .project .project-content {
-  background-color:white;
-  padding:20px;
-}
-
-.homepages .project img {
-  width:300px;
+.homepages .content .row:nth-child(1) img {
+  border-radius:50%;
 }
