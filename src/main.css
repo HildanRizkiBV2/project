@@ -36,19 +36,38 @@ header {
 .navbar span {
   font-weight:700;
 }
+.homepages {
+  background-color:#f6f8fd;
+}
 .homepages .biodata {
   background-color:#f6f8fd;
   border:4px;
   display:flex;
   justify-content:center;
+  
 }
 .homepages .bg-data {
   background-color:white;
   width:400px;
   height:500px;
   margin-top:200px;
+  margin-bottom:100px;
   padding:20px;
 }
 .homepages .bg-data p {
   font-size:800;
+}
+.homepages .project {
+  justify-content:center;
+  display:flex;
+  margin-bottom:100px;
+  padding:10px;
+}
+.homepages .project .project-content {
+  background-color:white;
+  padding:20px;
+}
+
+.homepages .project img {
+  width:300px;
 }
