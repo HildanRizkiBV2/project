@@ -1,0 +1,54 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+.navbar{
+  position:fixed;
+  padding:15px 0;
+  width:100%;
+  transition:all 0.2s ease;
+  z-Index:999;
+  
+}
+.navbar.color-active {
+  background-color:white;
+  padding:20px 0 20px 0;
+  border-bottom:1px solid;
+}
+.navbar .nav-link a{
+  padding:5px 10px 5px 10px;
+  font-weight:500;
+  text-decoration:none;
+}
+.navbar .nav-link a:hover{
+  color:white;
+}
+.navbar .nav-link .active {
+  background-color:#dc3545;
+  color:white;
+}
+header {
+  background: #c6ffdd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f7797d, #fbd786, #c6ffdd); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f7797d, #fbd786, #c6ffdd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar span {
+  font-weight:700;
+}
+.homepages .biodata {
+  background-color:#f6f8fd;
+  border:4px;
+  display:flex;
+  justify-content:center;
+}
+.homepages .bg-data {
+  background-color:white;
+  width:400px;
+  height:500px;
+  margin-top:200px;
+  padding:20px;
+}
+.homepages .bg-data p {
+  font-size:800;
+}
