@@ -19,7 +19,6 @@ function App() {
           <Route path="/project/dokumentasi" Component={DokumentasiPage} />
           <Route path="/project/profile" Component={ProfilePage} />
         </Routes>
-        <FooterWeb />
     </div>
   )
 }

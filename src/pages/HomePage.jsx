@@ -13,10 +13,10 @@ const HomePage = () => {
     <Row className="header-box d-flex align-items-center"> 
       <Col lg="6">
         <h1>Title</h1>
-        <p>Hildan Rizki portofolio</p>
+        <p>Hildan Rizki portofolio </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda neque rem unde magnam ex error.</p>
       </Col>
-      <Col lg="6">
+      <Col lg="6" className="img-1">
         <img src={Project} alt="" />
       </Col>
     </Row>
@@ -31,6 +31,12 @@ const HomePage = () => {
         <h1>title</h1>
         <h5>title</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, odit.</p>
+        <div className="icon ">
+        <i className="fa-brands fa-html5 fa-3x"></i>
+        <i className="fa-brands fa-css3 fa-3x"></i>
+        <i className="fa-brands fa-js fa-3x"></i>
+        <i className="fa-brands fa-react fa-3x"></i>
+        </div>
       </Col>
     </Row>
     </div>

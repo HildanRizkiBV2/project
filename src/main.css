@@ -43,12 +43,33 @@ header {
 .homepages .row:nth-child(1) {
   padding-top:100px;
 }
+.homepages .row:nth-child(1) .img-1 {
+  padding-left:100px;
+}
 .homepages .content {
   background-color:#0300ff;
 }
 .homepages .content .row:nth-child(1) {
   padding-top:150px;
 }
-.homepages .content .row:nth-child(1) img {
-  border-radius:50%;
+.homepages .content .row:nth-child(1) .icon i {
+  margin:10px;
+  column-gap:40px;
+  padding:5px;
+}
+
+
+
+@media screen and (max-width: 900px){
+  .homepages .row:nth-child(1) {
+  padding-top:150px;
+  }
+  .homepages .row:nth-child(1) .img-1 {
+  padding-left:0px;
+
+}
+  .homepages .row:nth-child(1) img {
+    width:400px;
+    padding-left:80px;
+  }
 }
